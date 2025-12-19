@@ -13,7 +13,6 @@ function App() {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/favorites" element={<Favorites />} />
-          {/* Add this line below to fix the 'blank page' issue */}
           <Route path="*" element={<Navigate to="/" />} /> 
         </Routes>
       </main>
